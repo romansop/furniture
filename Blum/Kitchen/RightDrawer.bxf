@@ -1,0 +1,1710 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- ====================================================================== -->
+<!-- Copyright 2011 by Julius Blum GmbH, Industriestrasse 1, Hoechst, Austria
+     Alle Laengenangaben in Millimeter.
+     Alle Winkel in Grad.
+-->
+<!-- ====================================================================== -->
+<Korpus Name="RightDrawer" xmlns="http://www.blum.com/bxf">
+	<Header BXFVersion="3.5.0046" Datum="30.12.2019" Ersteller="">
+		<Attribut Name="Kommission" Typ="String">Kitchen</Attribut>
+		<Attribut Name="FrontenInliegend" Typ="Boolean">Falsch</Attribut>
+		<Attribut Name="Korpusart" Typ="String">Standardkorpus1</Attribut>
+	</Header>
+	<Korpusdaten>
+		<Fugendaten Oben="3.0" Unten="0.0" Rechts="2.0" Links="2.0" Zwischen="3.0"></Fugendaten>
+		<Korpusdaten Kh="2320.0" Kt="455.0" Kab="650.0" Lw="614.0"/>
+		<Plattendicken Oben="18.0" Unten="18.0" Rechts="18.0" Links="18.0"></Plattendicken>
+	</Korpusdaten>
+	<Oberboden>
+		<Boden ID="OB">
+			<Quader>
+				<Position X="0.0" Y="18.0" Z="2302.0" Bezug="A"/>
+				<Orientierung X="0.0" Y="0.0" Z="1.0" Bezug="A"/>
+				<Hoehe>18.0</Hoehe>
+				<PunktC X="455.0" Y="632.0" Z="2302.0" Bezug="A"/>
+				<Handle>0</Handle>
+			</Quader>
+		</Boden>
+	</Oberboden>
+	<Unterboden>
+		<Boden ID="UB">
+			<Quader>
+				<Position X="0.0" Y="18.0" Z="0.0" Bezug="A"/>
+				<Orientierung X="0.0" Y="0.0" Z="1.0" Bezug="A"/>
+				<Hoehe>18.0</Hoehe>
+				<PunktC X="455.0" Y="632.0" Z="0.0" Bezug="A"/>
+				<Handle>0</Handle>
+			</Quader>
+		</Boden>
+	</Unterboden>
+	<LinkeSeitenwand>
+		<Seitenwand ID="KSL">
+			<Quader>
+				<Position X="0.0" Y="0.0" Z="0.0" Bezug="A"/>
+				<Orientierung X="0.0" Y="0.0" Z="1.0" Bezug="A"/>
+				<Hoehe>2320.0</Hoehe>
+				<PunktC X="455.0" Y="18.0" Z="0.0" Bezug="A"/>
+				<Handle>0</Handle>
+				<Bohrungen>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_81">
+						<Position X="436.0" Y="18.0" Z="54.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="-1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_81">
+						<Position X="418.0" Y="18.0" Z="54.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="-1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_81">
+						<Position X="322.0" Y="18.0" Z="54.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="-1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_81">
+						<Position X="290.0" Y="18.0" Z="54.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="-1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_81">
+						<Position X="194.0" Y="18.0" Z="54.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="-1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_81">
+						<Position X="98.0" Y="18.0" Z="54.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="-1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_51">
+						<Position X="436.0" Y="18.0" Z="439.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="-1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_51">
+						<Position X="418.0" Y="18.0" Z="439.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="-1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_51">
+						<Position X="194.0" Y="18.0" Z="439.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="-1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_51">
+						<Position X="436.0" Y="18.0" Z="772.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="-1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_51">
+						<Position X="418.0" Y="18.0" Z="772.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="-1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_51">
+						<Position X="194.0" Y="18.0" Z="772.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="-1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="bb_Fach_1">
+						<Position X="418.0" Y="18.0" Z="971.5" Bezug="R"/>
+						<Orientierung X="0.0" Y="-1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="bb_Fach_1">
+						<Position X="37.0" Y="18.0" Z="971.5" Bezug="R"/>
+						<Orientierung X="0.0" Y="-1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="bb_Fach_1">
+						<Position X="418.0" Y="18.0" Z="1337.5" Bezug="R"/>
+						<Orientierung X="0.0" Y="-1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="bb_Fach_1">
+						<Position X="37.0" Y="18.0" Z="1337.5" Bezug="R"/>
+						<Orientierung X="0.0" Y="-1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="bb_Fach_1">
+						<Position X="418.0" Y="18.0" Z="1607.5" Bezug="R"/>
+						<Orientierung X="0.0" Y="-1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="bb_Fach_1">
+						<Position X="37.0" Y="18.0" Z="1607.5" Bezug="R"/>
+						<Orientierung X="0.0" Y="-1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_kraftspeicher_4li">
+						<Position X="290.0" Y="18.0" Z="2224.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="-1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>5.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_kraftspeicher_4li">
+						<Position X="418.0" Y="18.0" Z="2224.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="-1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>5.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+				</Bohrungen>
+			</Quader>
+			<Bohrbild Name="*Bohrbild_1" Blockname="*bb_sk_korpusschiene_81">
+				<Position X="418.0" Y="18.0" Z="54.0" Bezug="R"/>
+				<LayerZuordnung Von="1,2,5,6" Nach="4,5,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">15.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_2" Blockname="*bb_sk_korpusschiene_51">
+				<Position X="418.0" Y="18.0" Z="439.0" Bezug="R"/>
+				<LayerZuordnung Von="1,2,5,6" Nach="4,5,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">15.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_3" Blockname="*bb_sk_korpusschiene_51">
+				<Position X="418.0" Y="18.0" Z="772.0" Bezug="R"/>
+				<LayerZuordnung Von="1,2,5,6" Nach="4,5,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">15.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_4" Blockname="bb_Fach_1">
+				<Position X="418.0" Y="18.0" Z="971.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_5" Blockname="bb_Fach_1">
+				<Position X="37.0" Y="18.0" Z="971.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_6" Blockname="bb_Fach_1">
+				<Position X="418.0" Y="18.0" Z="1337.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_7" Blockname="bb_Fach_1">
+				<Position X="37.0" Y="18.0" Z="1337.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_8" Blockname="bb_Fach_1">
+				<Position X="418.0" Y="18.0" Z="1607.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_9" Blockname="bb_Fach_1">
+				<Position X="37.0" Y="18.0" Z="1607.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_10" Blockname="*bb_ZwTrav">
+				<Position X="0.0" Y="18.0" Z="1925.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,3,6" Nach="4,5,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_11" Blockname="*bb_kraftspeicher_4li">
+				<Position X="418.0" Y="18.0" Z="2224.0" Bezug="R"/>
+				<LayerZuordnung Von="1,2,3,6" Nach="4,5,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X038">5.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X038">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+		</Seitenwand>
+	</LinkeSeitenwand>
+	<RechteSeitenwand>
+		<Seitenwand ID="KSR">
+			<Quader>
+				<Position X="0.0" Y="632.0" Z="0.0" Bezug="A"/>
+				<Orientierung X="0.0" Y="0.0" Z="1.0" Bezug="A"/>
+				<Hoehe>2320.0</Hoehe>
+				<PunktC X="455.0" Y="650.0" Z="0.0" Bezug="A"/>
+				<Handle>0</Handle>
+				<Bohrungen>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_81">
+						<Position X="436.0" Y="0.0" Z="54.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_81">
+						<Position X="418.0" Y="0.0" Z="54.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_81">
+						<Position X="322.0" Y="0.0" Z="54.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_81">
+						<Position X="290.0" Y="0.0" Z="54.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_81">
+						<Position X="194.0" Y="0.0" Z="54.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_81">
+						<Position X="98.0" Y="0.0" Z="54.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_51">
+						<Position X="436.0" Y="0.0" Z="439.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_51">
+						<Position X="418.0" Y="0.0" Z="439.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_51">
+						<Position X="194.0" Y="0.0" Z="439.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_51">
+						<Position X="436.0" Y="0.0" Z="772.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_51">
+						<Position X="418.0" Y="0.0" Z="772.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_korpusschiene_51">
+						<Position X="194.0" Y="0.0" Z="772.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>15.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_tuer_mp_15">
+						<Position X="403.0" Y="0.0" Z="1049.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_tuer_mp_15">
+						<Position X="435.0" Y="0.0" Z="1049.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_tuer_mp_15">
+						<Position X="403.0" Y="0.0" Z="1446.5" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_tuer_mp_15">
+						<Position X="435.0" Y="0.0" Z="1446.5" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_tuer_mp_15">
+						<Position X="403.0" Y="0.0" Z="1844.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_tuer_mp_15">
+						<Position X="435.0" Y="0.0" Z="1844.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="bb_Fach_1">
+						<Position X="418.0" Y="0.0" Z="971.5" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="bb_Fach_1">
+						<Position X="37.0" Y="0.0" Z="971.5" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="bb_Fach_1">
+						<Position X="418.0" Y="0.0" Z="1337.5" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="bb_Fach_1">
+						<Position X="37.0" Y="0.0" Z="1337.5" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="bb_Fach_1">
+						<Position X="418.0" Y="0.0" Z="1607.5" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="bb_Fach_1">
+						<Position X="37.0" Y="0.0" Z="1607.5" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_kraftspeicher_4re">
+						<Position X="290.0" Y="0.0" Z="2224.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>5.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_kraftspeicher_4re">
+						<Position X="418.0" Y="0.0" Z="2224.0" Bezug="R"/>
+						<Orientierung X="0.0" Y="1.0" Z="0.0" Bezug="A"/>
+						<Hoehe>5.0</Hoehe>
+						<Radius>2.5</Radius>
+					</Zylinder>
+				</Bohrungen>
+			</Quader>
+			<Bohrbild Name="*Bohrbild_12" Blockname="*bb_sk_korpusschiene_81">
+				<Position X="418.0" Y="0.0" Z="54.0" Bezug="R"/>
+				<LayerZuordnung Von="1,3,4,6" Nach="4,5,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">15.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_13" Blockname="*bb_sk_korpusschiene_51">
+				<Position X="418.0" Y="0.0" Z="439.0" Bezug="R"/>
+				<LayerZuordnung Von="1,3,4,6" Nach="4,5,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">15.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_14" Blockname="*bb_sk_korpusschiene_51">
+				<Position X="418.0" Y="0.0" Z="772.0" Bezug="R"/>
+				<LayerZuordnung Von="1,3,4,6" Nach="4,5,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">15.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_15" Blockname="*bb_tuer_mp_15">
+				<Position X="435.0" Y="0.0" Z="1049.0" Bezug="R"/>
+				<LayerZuordnung Von="1,2,4,6" Nach="4,5,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_16" Blockname="*bb_tuer_mp_15">
+				<Position X="435.0" Y="0.0" Z="1446.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,4,6" Nach="4,5,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_17" Blockname="*bb_tuer_mp_15">
+				<Position X="435.0" Y="0.0" Z="1844.0" Bezug="R"/>
+				<LayerZuordnung Von="1,2,4,6" Nach="4,5,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_18" Blockname="bb_Fach_1">
+				<Position X="418.0" Y="0.0" Z="971.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_19" Blockname="bb_Fach_1">
+				<Position X="37.0" Y="0.0" Z="971.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_20" Blockname="bb_Fach_1">
+				<Position X="418.0" Y="0.0" Z="1337.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_21" Blockname="bb_Fach_1">
+				<Position X="37.0" Y="0.0" Z="1337.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_22" Blockname="bb_Fach_1">
+				<Position X="418.0" Y="0.0" Z="1607.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_23" Blockname="bb_Fach_1">
+				<Position X="37.0" Y="0.0" Z="1607.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_24" Blockname="*bb_ZwTrav">
+				<Position X="0.0" Y="0.0" Z="1925.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,3,6" Nach="4,5,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X006">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X006">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_25" Blockname="*bb_kraftspeicher_4re">
+				<Position X="418.0" Y="0.0" Z="2224.0" Bezug="R"/>
+				<LayerZuordnung Von="1,2,3,6" Nach="4,5,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X038">5.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X038">2.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+		</Seitenwand>
+	</RechteSeitenwand>
+	<KorpusRueckwand>
+		<Rueckwand ID="KRW">
+			<Quader>
+				<Position X="-5.0" Y="0.0" Z="0.0" Bezug="A"/>
+				<Orientierung X="0.0" Y="0.0" Z="1.0" Bezug="A"/>
+				<Hoehe>2320.0</Hoehe>
+				<PunktC X="0.0" Y="650.0" Z="0.0" Bezug="A"/>
+				<Handle>0</Handle>
+			</Quader>
+		</Rueckwand>
+	</KorpusRueckwand>
+	<Aussenschubkasten Name="61" Schubkastenart="Metallzargenschubkasten" Auszugslaenge="450">
+		<Beschlaege Name="*Beschlaege_2" PositionX="418.0" PositionY="632.0" PositionZ="54.0" Bezug="A">
+			<Artikel Anzahl="1" Identnummer="03304791" Artikelnummer="378M4502S" Bezeichnung="TANDEMBOX drawer side, height M (83 mm), NL=450 mm, right, for TANDEMBOX plus" Oberflaeche="R9006 white aluminium/dust grey">
+				<Artikel Name="378M4502S" PositionX="2.5" Bezug="R"></Artikel>
+				<Artikel Name="378M4502S_L" PositionX="2.5" PositionY="-614.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="1" Identnummer="03310076" Artikelnummer="378M4502S" Bezeichnung="TANDEMBOX drawer side, height M (83 mm), NL=450 mm, left, for TANDEMBOX plus" Oberflaeche="R9006 white aluminium/dust grey"></Artikel>
+			<Artikel Anzahl="1" Identnummer="06022202" Artikelnummer="576.4501M" Bezeichnung="TANDEMBOX cabinet profile for TIP-ON BLUMOTION, 65 kg, NL=450 mm, right+left" Oberflaeche="Zinc plated">
+				<Artikel Name="576.4501M" Bezug="R"></Artikel>
+				<Artikel Name="576.4501M_L" PositionY="-614.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="2" Identnummer="04045944" Artikelnummer="ZSF.39A2" Bezeichnung="TANDEMBOX front fixing bracket, INSERTA, symmetrical" Oberflaeche="self colour">
+				<Artikel Name="ZSF.39A2" PositionX="2.5" Bezug="R"></Artikel>
+				<Artikel Name="ZSF.39A2" PositionX="2.5" PositionY="-583.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="1" Identnummer="07561427" Artikelnummer="Z30D000SL" Bezeichnung="TANDEMBOX back fixings bracket, height D (224 mm), right+left" Oberflaeche="R9006 white aluminium">
+				<Artikel Name="Z30D000SL" PositionX="-447.5" Bezug="R"></Artikel>
+				<Artikel Name="Z30D000SL_L" PositionX="-447.5" PositionY="-614.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="2" Identnummer="07427250" Artikelnummer="ZAA.330C.BT" Bezeichnung="TANDEMBOX cover cap, rectangular, symmetrical, indented (blum)" Oberflaeche="R7037 dust grey"></Artikel>
+			<Artikel Anzahl="2" Identnummer="02246270" Artikelnummer="ZRG.396V.IC" Bezeichnung="TANDEMBOX longside gallery rail (upper), NL=450 mm" Oberflaeche="R9006 white aluminium/dust grey">
+				<Artikel Name="IAZ_ZRG.396V.IC" PositionX="2.5" PositionZ="64.0" Bezug="R"></Artikel>
+				<Artikel Name="IAZ_ZRG.396V.IC_L" PositionX="2.5" PositionY="-614.0" PositionZ="64.0" Bezug="R"></Artikel>
+				<Artikel Name="ZRG.000M07.I" PositionX="2.5" PositionZ="64.0" Bezug="R"></Artikel>
+				<Artikel Name="ZRG.000M07.I_L" PositionX="2.5" PositionY="-614.0" PositionZ="64.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="1" Identnummer="04318600" Artikelnummer="Z37H418S.E" Bezeichnung="TANDEMBOX BOXSIDE, height D, NL=450 mm, right+left" Oberflaeche="R9006 white aluminium/dust grey">
+				<Artikel Name="Z37H418S.E" PositionX="2.5" Bezug="R"></Artikel>
+				<Artikel Name="Z37H418S.E_L" PositionX="2.5" PositionY="-614.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="2" Identnummer="06448980" Artikelnummer="Z96.10E1" Bezeichnung="TANDEMBOX front stabilisation, EXPANDO" Oberflaeche="R7037 dust grey">
+				<Artikel Name="Z96.10E1" PositionX="2.5" PositionY="-41.0" Bezug="R"></Artikel>
+				<Artikel Name="Z96.10E1" PositionX="2.5" PositionY="-382.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="1" Identnummer="09792576" Artikelnummer="T60B3560" Bezeichnung="TIP-ON BLUMOTION set (Unit + latch) for TANDEMBOX, Type L5, NL=350-650 mm, Total weight of the pull-out=30-65 kg, right+left" Oberflaeche="Black">
+				<Artikel Name="T60B3560" PositionX="-40.1" PositionY="-120.0" PositionZ="-28.45" Bezug="R"></Artikel>
+				<Artikel Name="T60B3560_L" PositionX="-40.1" PositionY="-494.0" PositionZ="-28.45" Bezug="R"></Artikel>
+				<Artikel Name="T60B3009" Bezug="R"></Artikel>
+				<Artikel Name="T60B3009_L" PositionY="-614.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="2" Identnummer="01512005" Artikelnummer="T60.000D" Bezeichnung="TIP-ON BLUMOTION adapter" Oberflaeche="R7035 light grey">
+				<Artikel Name="T60.000D" PositionX="-40.1" PositionY="-120.0" PositionZ="-28.45" Bezug="R"></Artikel>
+				<Artikel Name="T60.000D_L" PositionX="-40.1" PositionY="-494.0" PositionZ="-28.45" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="1" Identnummer="02101757" Artikelnummer="T60.1125W" Bezeichnung="TIP-ON BLUMOTION synchronisation linkage, Length=1125 mm" Oberflaeche="Grey">
+				<Artikel Name="T60.1125W" PositionX="-40.1" PositionY="-120.0" PositionZ="-28.45" Bezug="R">
+					<Ablaengen ReferenzY="1125" LaengeY="374.0"></Ablaengen>
+					<Skalierung X="1.0" Y="0.332" Z="1.0"></Skalierung>
+				</Artikel>
+			</Artikel>
+		</Beschlaege>
+		<Front ID="FRONT_93_1" Name="*Front_2">
+			<Quader>
+				<Position X="457.5" Y="2.0" Z="0.0" Bezug="A"/>
+				<Orientierung X="0.0" Y="0.0" Z="1.0" Bezug="A"/>
+				<Hoehe>400.0</Hoehe>
+				<PunktC X="477.1" Y="648.0" Z="0.0" Bezug="A"/>
+				<Handle>0</Handle>
+				<Bohrungen>
+					<Zylinder von_Bohrbild="*bb_sk_front_2">
+						<Position X="0.0" Y="31.5" Z="100.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_front_2">
+						<Position X="0.0" Y="31.5" Z="68.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_front_14">
+						<Position X="0.0" Y="31.5" Z="228.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_front_2">
+						<Position X="0.0" Y="614.5" Z="100.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_front_2">
+						<Position X="0.0" Y="614.5" Z="68.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_front_14">
+						<Position X="0.0" Y="614.5" Z="228.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_frontbefestigung">
+						<Position X="0.0" Y="168.5" Z="29.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_frontbefestigung">
+						<Position X="0.0" Y="136.5" Z="29.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_frontbefestigung">
+						<Position X="0.0" Y="509.5" Z="29.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_frontbefestigung">
+						<Position X="0.0" Y="477.5" Z="29.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+				</Bohrungen>
+			</Quader>
+			<Bohrbild Name="*Bohrbild_26" Blockname="*bb_sk_front_2">
+				<Position X="0.0" Y="31.5" Z="68.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X001">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X001">5.0</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_27" Blockname="*bb_sk_front_14" HauptBohrbild="*Bohrbild_26">
+				<Position X="0.0" Y="31.5" Z="68.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X001">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X001">5.0</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_28" Blockname="*bb_sk_front_2">
+				<Position X="0.0" Y="614.5" Z="68.5" Bezug="R"/>
+				<LayerZuordnung Von="1,3,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X001">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X001">5.0</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_29" Blockname="*bb_sk_front_14" HauptBohrbild="*Bohrbild_28">
+				<Position X="0.0" Y="614.5" Z="68.5" Bezug="R"/>
+				<LayerZuordnung Von="1,3,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X001">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X001">5.0</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_30" Blockname="*bb_sk_frontbefestigung">
+				<Position X="0.0" Y="168.5" Z="29.0" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X001">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X001">5.0</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_31" Blockname="*bb_sk_frontbefestigung">
+				<Position X="0.0" Y="509.5" Z="29.0" Bezug="R"/>
+				<LayerZuordnung Von="1,3,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X001">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X001">5.0</BR>
+				</Bohrradius>
+			</Bohrbild>
+		</Front>
+		<Boden ID="BODEN_93_1" Name="*Boden_2">
+			<Quader>
+				<Position X="31.5" Y="55.5" Z="30.0" Bezug="A"/>
+				<Orientierung X="0.0" Y="0.0" Z="1.0" Bezug="A"/>
+				<Hoehe>16.0</Hoehe>
+				<PunktC X="457.5" Y="594.5" Z="30.0" Bezug="A"/>
+				<Handle>0</Handle>
+			</Quader>
+		</Boden>
+		<Rueckwand ID="RUECKWAND_93_1" Name="*Rueckwand_2">
+			<Quader>
+				<Position X="15.5" Y="61.5" Z="30.0" Bezug="A"/>
+				<Orientierung X="0.0" Y="0.0" Z="1.0" Bezug="A"/>
+				<Hoehe>199.0</Hoehe>
+				<PunktC X="31.5" Y="588.5" Z="30.0" Bezug="A"/>
+				<Handle>0</Handle>
+				<Bohrungen>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="9.0" Z="159.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="9.0" Z="191.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="9.0" Z="95.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="9.0" Z="63.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="9.0" Z="31.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="518.0" Z="159.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="518.0" Z="191.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="518.0" Z="95.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="518.0" Z="63.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="518.0" Z="31.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+				</Bohrungen>
+			</Quader>
+			<Bohrbild Name="*Bohrbild_32" Blockname="*bb_hrw_halt_8">
+				<Position X="0.0" Y="9.0" Z="31.0" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X002">3.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X002">1.25</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_33" Blockname="*bb_hrw_halt_8">
+				<Position X="0.0" Y="518.0" Z="31.0" Bezug="R"/>
+				<LayerZuordnung Von="1,3,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X002">3.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X002">1.25</BR>
+				</Bohrradius>
+			</Bohrbild>
+		</Rueckwand>
+	</Aussenschubkasten>
+	<Aussenschubkasten Name="62" Schubkastenart="Metallzargenschubkasten" Auszugslaenge="450">
+		<Beschlaege Name="*Beschlaege_3" PositionX="418.0" PositionY="632.0" PositionZ="439.0" Bezug="A">
+			<Artikel Anzahl="1" Identnummer="03304791" Artikelnummer="378M4502S" Bezeichnung="TANDEMBOX drawer side, height M (83 mm), NL=450 mm, right, for TANDEMBOX plus" Oberflaeche="R9006 white aluminium/dust grey">
+				<Artikel Name="378M4502S" PositionX="2.5" Bezug="R"></Artikel>
+				<Artikel Name="378M4502S_L" PositionX="2.5" PositionY="-614.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="1" Identnummer="03310076" Artikelnummer="378M4502S" Bezeichnung="TANDEMBOX drawer side, height M (83 mm), NL=450 mm, left, for TANDEMBOX plus" Oberflaeche="R9006 white aluminium/dust grey"></Artikel>
+			<Artikel Anzahl="1" Identnummer="09291634" Artikelnummer="578.4501M" Bezeichnung="TANDEMBOX cabinet profile for TIP-ON BLUMOTION, 30 kg, NL=450 mm, right+left" Oberflaeche="Zinc plated">
+				<Artikel Name="578.4501M" Bezug="R"></Artikel>
+				<Artikel Name="578.4501M_L" PositionY="-614.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="2" Identnummer="04045944" Artikelnummer="ZSF.39A2" Bezeichnung="TANDEMBOX front fixing bracket, INSERTA, symmetrical" Oberflaeche="self colour">
+				<Artikel Name="ZSF.39A2" PositionX="2.5" Bezug="R"></Artikel>
+				<Artikel Name="ZSF.39A2" PositionX="2.5" PositionY="-583.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="1" Identnummer="07561427" Artikelnummer="Z30D000SL" Bezeichnung="TANDEMBOX back fixings bracket, height D (224 mm), right+left" Oberflaeche="R9006 white aluminium">
+				<Artikel Name="Z30D000SL" PositionX="-447.5" Bezug="R"></Artikel>
+				<Artikel Name="Z30D000SL_L" PositionX="-447.5" PositionY="-614.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="2" Identnummer="07427250" Artikelnummer="ZAA.330C.BT" Bezeichnung="TANDEMBOX cover cap, rectangular, symmetrical, indented (blum)" Oberflaeche="R7037 dust grey"></Artikel>
+			<Artikel Anzahl="2" Identnummer="02246270" Artikelnummer="ZRG.396V.IC" Bezeichnung="TANDEMBOX longside gallery rail (upper), NL=450 mm" Oberflaeche="R9006 white aluminium/dust grey">
+				<Artikel Name="IAZ_ZRG.396V.IC" PositionX="2.5" PositionZ="64.0" Bezug="R"></Artikel>
+				<Artikel Name="IAZ_ZRG.396V.IC_L" PositionX="2.5" PositionY="-614.0" PositionZ="64.0" Bezug="R"></Artikel>
+				<Artikel Name="ZRG.000M07.I" PositionX="2.5" PositionZ="64.0" Bezug="R"></Artikel>
+				<Artikel Name="ZRG.000M07.I_L" PositionX="2.5" PositionY="-614.0" PositionZ="64.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="1" Identnummer="04318600" Artikelnummer="Z37H418S.E" Bezeichnung="TANDEMBOX BOXSIDE, height D, NL=450 mm, right+left" Oberflaeche="R9006 white aluminium/dust grey">
+				<Artikel Name="Z37H418S.E" PositionX="2.5" Bezug="R"></Artikel>
+				<Artikel Name="Z37H418S.E_L" PositionX="2.5" PositionY="-614.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="2" Identnummer="06448980" Artikelnummer="Z96.10E1" Bezeichnung="TANDEMBOX front stabilisation, EXPANDO" Oberflaeche="R7037 dust grey">
+				<Artikel Name="Z96.10E1" PositionX="2.5" PositionY="-41.0" Bezug="R"></Artikel>
+				<Artikel Name="Z96.10E1" PositionX="2.5" PositionY="-382.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="1" Identnummer="01023195" Artikelnummer="T60B3530" Bezeichnung="TIP-ON BLUMOTION set (Unit + latch) for TANDEMBOX, Type L3, NL=350-600 mm, Total weight of the pull-out=10-30 kg, right+left" Oberflaeche="R7037 dust grey">
+				<Artikel Name="T60B3530" PositionX="-40.1" PositionY="-120.0" PositionZ="-28.45" Bezug="R"></Artikel>
+				<Artikel Name="T60B3530_L" PositionX="-40.1" PositionY="-494.0" PositionZ="-28.45" Bezug="R"></Artikel>
+				<Artikel Name="T60B3009" Bezug="R"></Artikel>
+				<Artikel Name="T60B3009_L" PositionY="-614.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="2" Identnummer="01512005" Artikelnummer="T60.000D" Bezeichnung="TIP-ON BLUMOTION adapter" Oberflaeche="R7035 light grey">
+				<Artikel Name="T60.000D" PositionX="-40.1" PositionY="-120.0" PositionZ="-28.45" Bezug="R"></Artikel>
+				<Artikel Name="T60.000D_L" PositionX="-40.1" PositionY="-494.0" PositionZ="-28.45" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="1" Identnummer="02101757" Artikelnummer="T60.1125W" Bezeichnung="TIP-ON BLUMOTION synchronisation linkage, Length=1125 mm" Oberflaeche="Grey">
+				<Artikel Name="T60.1125W" PositionX="-40.1" PositionY="-120.0" PositionZ="-28.45" Bezug="R">
+					<Ablaengen ReferenzY="1125" LaengeY="374.0"></Ablaengen>
+					<Skalierung X="1.0" Y="0.332" Z="1.0"></Skalierung>
+				</Artikel>
+			</Artikel>
+		</Beschlaege>
+		<Front ID="FRONT_95_1" Name="*Front_3">
+			<Quader>
+				<Position X="457.5" Y="2.0" Z="403.0" Bezug="A"/>
+				<Orientierung X="0.0" Y="0.0" Z="1.0" Bezug="A"/>
+				<Hoehe>330.0</Hoehe>
+				<PunktC X="477.1" Y="648.0" Z="403.0" Bezug="A"/>
+				<Handle>0</Handle>
+				<Bohrungen>
+					<Zylinder von_Bohrbild="*bb_sk_front_2">
+						<Position X="0.0" Y="31.5" Z="82.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_front_2">
+						<Position X="0.0" Y="31.5" Z="50.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_front_14">
+						<Position X="0.0" Y="31.5" Z="210.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_front_2">
+						<Position X="0.0" Y="614.5" Z="82.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_front_2">
+						<Position X="0.0" Y="614.5" Z="50.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_front_14">
+						<Position X="0.0" Y="614.5" Z="210.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_frontbefestigung">
+						<Position X="0.0" Y="168.5" Z="11.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_frontbefestigung">
+						<Position X="0.0" Y="136.5" Z="11.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_frontbefestigung">
+						<Position X="0.0" Y="509.5" Z="11.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_frontbefestigung">
+						<Position X="0.0" Y="477.5" Z="11.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+				</Bohrungen>
+			</Quader>
+			<Bohrbild Name="*Bohrbild_34" Blockname="*bb_sk_front_2">
+				<Position X="0.0" Y="31.5" Z="50.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X001">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X001">5.0</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_35" Blockname="*bb_sk_front_14" HauptBohrbild="*Bohrbild_34">
+				<Position X="0.0" Y="31.5" Z="50.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X001">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X001">5.0</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_36" Blockname="*bb_sk_front_2">
+				<Position X="0.0" Y="614.5" Z="50.5" Bezug="R"/>
+				<LayerZuordnung Von="1,3,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X001">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X001">5.0</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_37" Blockname="*bb_sk_front_14" HauptBohrbild="*Bohrbild_36">
+				<Position X="0.0" Y="614.5" Z="50.5" Bezug="R"/>
+				<LayerZuordnung Von="1,3,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X001">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X001">5.0</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_38" Blockname="*bb_sk_frontbefestigung">
+				<Position X="0.0" Y="168.5" Z="11.0" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X001">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X001">5.0</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_39" Blockname="*bb_sk_frontbefestigung">
+				<Position X="0.0" Y="509.5" Z="11.0" Bezug="R"/>
+				<LayerZuordnung Von="1,3,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X001">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X001">5.0</BR>
+				</Bohrradius>
+			</Bohrbild>
+		</Front>
+		<Boden ID="BODEN_95_1" Name="*Boden_3">
+			<Quader>
+				<Position X="31.5" Y="55.5" Z="415.0" Bezug="A"/>
+				<Orientierung X="0.0" Y="0.0" Z="1.0" Bezug="A"/>
+				<Hoehe>16.0</Hoehe>
+				<PunktC X="457.5" Y="594.5" Z="415.0" Bezug="A"/>
+				<Handle>0</Handle>
+			</Quader>
+		</Boden>
+		<Rueckwand ID="RUECKWAND_95_1" Name="*Rueckwand_3">
+			<Quader>
+				<Position X="15.5" Y="61.5" Z="415.0" Bezug="A"/>
+				<Orientierung X="0.0" Y="0.0" Z="1.0" Bezug="A"/>
+				<Hoehe>199.0</Hoehe>
+				<PunktC X="31.5" Y="588.5" Z="415.0" Bezug="A"/>
+				<Handle>0</Handle>
+				<Bohrungen>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="9.0" Z="159.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="9.0" Z="191.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="9.0" Z="95.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="9.0" Z="63.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="9.0" Z="31.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="518.0" Z="159.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="518.0" Z="191.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="518.0" Z="95.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="518.0" Z="63.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="518.0" Z="31.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+				</Bohrungen>
+			</Quader>
+			<Bohrbild Name="*Bohrbild_40" Blockname="*bb_hrw_halt_8">
+				<Position X="0.0" Y="9.0" Z="31.0" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X002">3.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X002">1.25</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_41" Blockname="*bb_hrw_halt_8">
+				<Position X="0.0" Y="518.0" Z="31.0" Bezug="R"/>
+				<LayerZuordnung Von="1,3,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X002">3.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X002">1.25</BR>
+				</Bohrradius>
+			</Bohrbild>
+		</Rueckwand>
+	</Aussenschubkasten>
+	<Aussenschubkasten Name="63" Schubkastenart="Metallzargenschubkasten" Auszugslaenge="450">
+		<Beschlaege Name="*Beschlaege_4" PositionX="418.0" PositionY="632.0" PositionZ="772.0" Bezug="A">
+			<Artikel Anzahl="1" Identnummer="03304791" Artikelnummer="378M4502S" Bezeichnung="TANDEMBOX drawer side, height M (83 mm), NL=450 mm, right, for TANDEMBOX plus" Oberflaeche="R9006 white aluminium/dust grey">
+				<Artikel Name="378M4502S" PositionX="2.5" Bezug="R"></Artikel>
+				<Artikel Name="378M4502S_L" PositionX="2.5" PositionY="-614.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="1" Identnummer="03310076" Artikelnummer="378M4502S" Bezeichnung="TANDEMBOX drawer side, height M (83 mm), NL=450 mm, left, for TANDEMBOX plus" Oberflaeche="R9006 white aluminium/dust grey"></Artikel>
+			<Artikel Anzahl="1" Identnummer="09291634" Artikelnummer="578.4501M" Bezeichnung="TANDEMBOX cabinet profile for TIP-ON BLUMOTION, 30 kg, NL=450 mm, right+left" Oberflaeche="Zinc plated">
+				<Artikel Name="578.4501M" Bezug="R"></Artikel>
+				<Artikel Name="578.4501M_L" PositionY="-614.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="2" Identnummer="04045944" Artikelnummer="ZSF.39A2" Bezeichnung="TANDEMBOX front fixing bracket, INSERTA, symmetrical" Oberflaeche="self colour">
+				<Artikel Name="ZSF.39A2" PositionX="2.5" Bezug="R"></Artikel>
+				<Artikel Name="ZSF.39A2" PositionX="2.5" PositionY="-583.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="1" Identnummer="07561427" Artikelnummer="Z30D000SL" Bezeichnung="TANDEMBOX back fixings bracket, height D (224 mm), right+left" Oberflaeche="R9006 white aluminium">
+				<Artikel Name="Z30D000SL" PositionX="-447.5" Bezug="R"></Artikel>
+				<Artikel Name="Z30D000SL_L" PositionX="-447.5" PositionY="-614.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="2" Identnummer="07427250" Artikelnummer="ZAA.330C.BT" Bezeichnung="TANDEMBOX cover cap, rectangular, symmetrical, indented (blum)" Oberflaeche="R7037 dust grey"></Artikel>
+			<Artikel Anzahl="2" Identnummer="02246270" Artikelnummer="ZRG.396V.IC" Bezeichnung="TANDEMBOX longside gallery rail (upper), NL=450 mm" Oberflaeche="R9006 white aluminium/dust grey">
+				<Artikel Name="IAZ_ZRG.396V.IC" PositionX="2.5" PositionZ="64.0" Bezug="R"></Artikel>
+				<Artikel Name="IAZ_ZRG.396V.IC_L" PositionX="2.5" PositionY="-614.0" PositionZ="64.0" Bezug="R"></Artikel>
+				<Artikel Name="ZRG.000M07.I" PositionX="2.5" PositionZ="64.0" Bezug="R"></Artikel>
+				<Artikel Name="ZRG.000M07.I_L" PositionX="2.5" PositionY="-614.0" PositionZ="64.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="1" Identnummer="04318600" Artikelnummer="Z37H418S.E" Bezeichnung="TANDEMBOX BOXSIDE, height D, NL=450 mm, right+left" Oberflaeche="R9006 white aluminium/dust grey">
+				<Artikel Name="Z37H418S.E" PositionX="2.5" Bezug="R"></Artikel>
+				<Artikel Name="Z37H418S.E_L" PositionX="2.5" PositionY="-614.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="1" Identnummer="01023195" Artikelnummer="T60B3530" Bezeichnung="TIP-ON BLUMOTION set (Unit + latch) for TANDEMBOX, Type L3, NL=350-600 mm, Total weight of the pull-out=10-30 kg, right+left" Oberflaeche="R7037 dust grey">
+				<Artikel Name="T60B3530" PositionX="-40.1" PositionY="-120.0" PositionZ="-28.45" Bezug="R"></Artikel>
+				<Artikel Name="T60B3530_L" PositionX="-40.1" PositionY="-494.0" PositionZ="-28.45" Bezug="R"></Artikel>
+				<Artikel Name="T60B3009" Bezug="R"></Artikel>
+				<Artikel Name="T60B3009_L" PositionY="-614.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="2" Identnummer="01512005" Artikelnummer="T60.000D" Bezeichnung="TIP-ON BLUMOTION adapter" Oberflaeche="R7035 light grey">
+				<Artikel Name="T60.000D" PositionX="-40.1" PositionY="-120.0" PositionZ="-28.45" Bezug="R"></Artikel>
+				<Artikel Name="T60.000D_L" PositionX="-40.1" PositionY="-494.0" PositionZ="-28.45" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="1" Identnummer="02101757" Artikelnummer="T60.1125W" Bezeichnung="TIP-ON BLUMOTION synchronisation linkage, Length=1125 mm" Oberflaeche="Grey">
+				<Artikel Name="T60.1125W" PositionX="-40.1" PositionY="-120.0" PositionZ="-28.45" Bezug="R">
+					<Ablaengen ReferenzY="1125" LaengeY="374.0"></Ablaengen>
+					<Skalierung X="1.0" Y="0.332" Z="1.0"></Skalierung>
+				</Artikel>
+			</Artikel>
+		</Beschlaege>
+		<Front ID="FRONT_97_1" Name="*Front_4">
+			<Quader>
+				<Position X="457.5" Y="2.0" Z="736.0" Bezug="A"/>
+				<Orientierung X="0.0" Y="0.0" Z="1.0" Bezug="A"/>
+				<Hoehe>230.0</Hoehe>
+				<PunktC X="477.1" Y="648.0" Z="736.0" Bezug="A"/>
+				<Handle>0</Handle>
+				<Bohrungen>
+					<Zylinder von_Bohrbild="*bb_sk_front_2">
+						<Position X="0.0" Y="31.5" Z="82.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_front_2">
+						<Position X="0.0" Y="31.5" Z="50.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_front_14">
+						<Position X="0.0" Y="31.5" Z="210.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_front_2">
+						<Position X="0.0" Y="614.5" Z="82.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_front_2">
+						<Position X="0.0" Y="614.5" Z="50.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_sk_front_14">
+						<Position X="0.0" Y="614.5" Z="210.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+				</Bohrungen>
+			</Quader>
+			<Bohrbild Name="*Bohrbild_42" Blockname="*bb_sk_front_2">
+				<Position X="0.0" Y="31.5" Z="50.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X001">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X001">5.0</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_43" Blockname="*bb_sk_front_14" HauptBohrbild="*Bohrbild_42">
+				<Position X="0.0" Y="31.5" Z="50.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X001">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X001">5.0</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_44" Blockname="*bb_sk_front_2">
+				<Position X="0.0" Y="614.5" Z="50.5" Bezug="R"/>
+				<LayerZuordnung Von="1,3,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X001">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X001">5.0</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_45" Blockname="*bb_sk_front_14" HauptBohrbild="*Bohrbild_44">
+				<Position X="0.0" Y="614.5" Z="50.5" Bezug="R"/>
+				<LayerZuordnung Von="1,3,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X001">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X001">5.0</BR>
+				</Bohrradius>
+			</Bohrbild>
+		</Front>
+		<Boden ID="BODEN_97_1" Name="*Boden_4">
+			<Quader>
+				<Position X="31.5" Y="55.5" Z="748.0" Bezug="A"/>
+				<Orientierung X="0.0" Y="0.0" Z="1.0" Bezug="A"/>
+				<Hoehe>16.0</Hoehe>
+				<PunktC X="457.5" Y="594.5" Z="748.0" Bezug="A"/>
+				<Handle>0</Handle>
+			</Quader>
+		</Boden>
+		<Rueckwand ID="RUECKWAND_97_1" Name="*Rueckwand_4">
+			<Quader>
+				<Position X="15.5" Y="61.5" Z="748.0" Bezug="A"/>
+				<Orientierung X="0.0" Y="0.0" Z="1.0" Bezug="A"/>
+				<Hoehe>199.0</Hoehe>
+				<PunktC X="31.5" Y="588.5" Z="748.0" Bezug="A"/>
+				<Handle>0</Handle>
+				<Bohrungen>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="9.0" Z="159.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="9.0" Z="191.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="9.0" Z="95.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="9.0" Z="63.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="9.0" Z="31.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="518.0" Z="159.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="518.0" Z="191.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="518.0" Z="95.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="518.0" Z="63.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hrw_halt_8">
+						<Position X="0.0" Y="518.0" Z="31.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+				</Bohrungen>
+			</Quader>
+			<Bohrbild Name="*Bohrbild_46" Blockname="*bb_hrw_halt_8">
+				<Position X="0.0" Y="9.0" Z="31.0" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X002">3.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X002">1.25</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_47" Blockname="*bb_hrw_halt_8">
+				<Position X="0.0" Y="518.0" Z="31.0" Bezug="R"/>
+				<LayerZuordnung Von="1,3,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X002">3.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X002">1.25</BR>
+				</Bohrradius>
+			</Bohrbild>
+		</Rueckwand>
+	</Aussenschubkasten>
+	<Tuer Name="64" ScharnierSeite="Rechts">
+		<Beschlaege Name="*Beschlaege_5" PositionX="435.0" PositionY="632.0" PositionZ="1049.0" Bezug="A">
+			<Artikel Anzahl="3" Identnummer="07657503" Artikelnummer="74T1590BTL" Bezeichnung="CLIP top standard hinge 107°, overlay application, unsprung, boss: INSERTA" Oberflaeche="Nickel plated">
+				<Artikel Name="74T1590BTL" PositionX="-17.0" Bezug="R"></Artikel>
+				<Artikel Name="74T1590BTL" PositionX="-17.0" PositionZ="397.5" Bezug="R"></Artikel>
+				<Artikel Name="74T1590BTL" PositionX="-17.0" PositionZ="795.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="3" Identnummer="03120329" Artikelnummer="177H3100E" Bezeichnung="CLIP mounting plate, straight (20/32 mm), 0 mm, steel, EXPANDO, HA: cam" Oberflaeche="Nickel plated">
+				<Artikel Name="177H3100E" PositionX="-17.0" Bezug="R"></Artikel>
+				<Artikel Name="177H3100E" PositionX="-17.0" PositionZ="397.5" Bezug="R"></Artikel>
+				<Artikel Name="177H3100E" PositionX="-17.0" PositionZ="795.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="1" Identnummer="06856758" Artikelnummer="956A1004" Bezeichnung="TIP-ON for doors (set), long version, with magnet" Oberflaeche="Silk white"></Artikel>
+			<Artikel Anzahl="1" Identnummer="04619688" Artikelnummer="956A1201" Bezeichnung="TIP-ON adapter plate for doors, straight (20/32 mm)" Oberflaeche="Silk white"></Artikel>
+		</Beschlaege>
+		<Front ID="FRONT_105_1" Name="*Front_5">
+			<Quader>
+				<Position X="456.5" Y="2.0" Z="969.0" Bezug="A"/>
+				<Orientierung X="0.0" Y="0.0" Z="1.0" Bezug="A"/>
+				<Hoehe>955.0</Hoehe>
+				<PunktC X="476.1" Y="648.0" Z="969.0" Bezug="A"/>
+				<Handle>0</Handle>
+				<Verrundung Kante="CG" Radius="1.0"/>
+				<Bohrungen>
+					<Zylinder von_Bohrbild="*bb_tuer_9">
+						<Position X="0.0" Y="614.0" Z="102.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>11.0</Hoehe>
+						<Radius>4.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_tuer_9">
+						<Position X="0.0" Y="623.5" Z="80.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>17.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_tuer_9">
+						<Position X="0.0" Y="614.0" Z="57.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>11.0</Hoehe>
+						<Radius>4.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_tuer_9">
+						<Position X="0.0" Y="614.0" Z="500.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>11.0</Hoehe>
+						<Radius>4.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_tuer_9">
+						<Position X="0.0" Y="623.5" Z="477.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>17.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_tuer_9">
+						<Position X="0.0" Y="614.0" Z="455.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>11.0</Hoehe>
+						<Radius>4.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_tuer_9">
+						<Position X="0.0" Y="614.0" Z="897.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>11.0</Hoehe>
+						<Radius>4.0</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_tuer_9">
+						<Position X="0.0" Y="623.5" Z="875.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>12.0</Hoehe>
+						<Radius>17.5</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_tuer_9">
+						<Position X="0.0" Y="614.0" Z="852.5" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>11.0</Hoehe>
+						<Radius>4.0</Radius>
+					</Zylinder>
+				</Bohrungen>
+			</Quader>
+			<Bohrbild Name="*Bohrbild_48" Blockname="*bb_tuer_9">
+				<Position X="0.0" Y="623.5" Z="80.0" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X010">11.0</BT>
+				</Bohrtiefe>
+				<Bohrtiefe>
+					<BT ID="T_X013">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X010">4.0</BR>
+				</Bohrradius>
+				<Bohrradius>
+					<BR ID="R_X013">17.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_49" Blockname="*bb_tuer_9">
+				<Position X="0.0" Y="623.5" Z="477.5" Bezug="R"/>
+				<LayerZuordnung Von="1,6" Nach="4,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X010">11.0</BT>
+				</Bohrtiefe>
+				<Bohrtiefe>
+					<BT ID="T_X013">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X010">4.0</BR>
+				</Bohrradius>
+				<Bohrradius>
+					<BR ID="R_X013">17.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_50" Blockname="*bb_tuer_9">
+				<Position X="0.0" Y="623.5" Z="875.0" Bezug="R"/>
+				<LayerZuordnung Von="1,3,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X010">11.0</BT>
+				</Bohrtiefe>
+				<Bohrtiefe>
+					<BT ID="T_X013">12.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X010">4.0</BR>
+				</Bohrradius>
+				<Bohrradius>
+					<BR ID="R_X013">17.5</BR>
+				</Bohrradius>
+			</Bohrbild>
+		</Front>
+	</Tuer>
+	<InnenFach Name="72">
+		<Boden ID="FACHBODEN_220_1">
+			<Quader>
+				<Position X="0.0" Y="18.0" Z="974.0" Bezug="A"/>
+				<Orientierung X="0.0" Y="0.0" Z="1.0" Bezug="A"/>
+				<Hoehe>18.0</Hoehe>
+				<PunktC X="455.0" Y="632.0" Z="974.0" Bezug="A"/>
+				<Handle>0</Handle>
+			</Quader>
+		</Boden>
+	</InnenFach>
+	<InnenFach Name="70">
+		<Boden ID="FACHBODEN_218_1">
+			<Quader>
+				<Position X="0.0" Y="18.0" Z="1340.0" Bezug="A"/>
+				<Orientierung X="0.0" Y="0.0" Z="1.0" Bezug="A"/>
+				<Hoehe>18.0</Hoehe>
+				<PunktC X="455.0" Y="632.0" Z="1340.0" Bezug="A"/>
+				<Handle>0</Handle>
+			</Quader>
+		</Boden>
+	</InnenFach>
+	<InnenFach Name="71">
+		<Boden ID="FACHBODEN_219_1">
+			<Quader>
+				<Position X="0.0" Y="18.0" Z="1610.0" Bezug="A"/>
+				<Orientierung X="0.0" Y="0.0" Z="1.0" Bezug="A"/>
+				<Hoehe>18.0</Hoehe>
+				<PunktC X="455.0" Y="632.0" Z="1610.0" Bezug="A"/>
+				<Handle>0</Handle>
+			</Quader>
+		</Boden>
+	</InnenFach>
+	<Traverse Name="67">
+		<Boden ID="TRAV_119_1">
+			<Quader>
+				<Position X="0.0" Y="18.0" Z="1916.5" Bezug="A"/>
+				<Orientierung X="0.0" Y="0.0" Z="1.0" Bezug="A"/>
+				<Hoehe>18.0</Hoehe>
+				<PunktC X="455.0" Y="632.0" Z="1916.5" Bezug="A"/>
+				<Handle>0</Handle>
+				<Bohrungen>
+					<Zylinder von_Bohrbild="bb_to_vers_1">
+						<Position X="455.0" Y="307.0" Z="10.5" Bezug="R"/>
+						<Orientierung X="-1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>52.0</Hoehe>
+						<Radius>5.0</Radius>
+					</Zylinder>
+				</Bohrungen>
+			</Quader>
+			<Bohrbild Name="*Bohrbild_51" Blockname="bb_to_vers_1">
+				<Position X="455.0" Y="307.0" Z="10.5" Bezug="R"/>
+				<LayerZuordnung Von="1,2,3,6" Nach="4,5,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X023">52.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X023">5.0</BR>
+				</Bohrradius>
+			</Bohrbild>
+		</Boden>
+	</Traverse>
+	<Klappensystem Name="66" Typ="Aventos HK">
+		<Beschlaege Name="*Beschlaege_6" PositionX="418.0" PositionY="632.0" PositionZ="2224.0" Bezug="A">
+			<Artikel Anzahl="1" Identnummer="09391712" Artikelnummer="20K2500T" Bezeichnung="AVENTOS HK stay lift, lift mechanism (set), PF=750-2500 (with 2 pieces), for TIP-ON" Oberflaeche="Zinc plated">
+				<Artikel Name="20K2500T" Bezug="R"></Artikel>
+				<Artikel Name="20K2500T_L" PositionY="-614.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="1" Identnummer="07241746" Artikelnummer="20S4200" Bezeichnung="AVENTOS HS/HL/HK lift systems, front fixing bracket for wooden fronts (set), screw-on" Oberflaeche="Nickel plated">
+				<Artikel Name="20S4200" PositionZ="-69.0" Bezug="R"></Artikel>
+				<Artikel Name="20S4200_L" PositionY="-614.0" PositionZ="-69.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="1" Identnummer="08817601" Artikelnummer="20K8000" Bezeichnung="AVENTOS HK stay lift, cover cap set, right+left" Oberflaeche="silk white/dark grey">
+				<Artikel Name="20K8000" Bezug="R"></Artikel>
+				<Artikel Name="20K8000_L" PositionY="-614.0" Bezug="R"></Artikel>
+			</Artikel>
+			<Artikel Anzahl="1" Identnummer="04683908" Artikelnummer="956.1004" Bezeichnung="TIP-ON for doors (set), short version, with magnet" Oberflaeche="Silk white"></Artikel>
+		</Beschlaege>
+		<Front ID="FRONT_118_1" Name="*Front_6" Rahmen="0">
+			<Quader>
+				<Position X="458.1" Y="2.0" Z="1927.0" Bezug="A"/>
+				<Orientierung X="0.0" Y="0.0" Z="1.0" Bezug="A"/>
+				<Hoehe>390.0</Hoehe>
+				<PunktC X="477.7" Y="648.0" Z="1927.0" Bezug="A"/>
+				<Handle>0</Handle>
+				<Verrundung Kante="FG" Radius="1.0"/>
+				<Bohrungen>
+					<Zylinder von_Bohrbild="*bb_hs_front_1">
+						<Position X="0.0" Y="28.5" Z="292.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hs_front_1">
+						<Position X="0.0" Y="28.5" Z="260.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hs_front_1">
+						<Position X="0.0" Y="28.5" Z="228.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hs_front_1">
+						<Position X="0.0" Y="28.5" Z="324.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hs_front_1">
+						<Position X="0.0" Y="617.5" Z="292.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hs_front_1">
+						<Position X="0.0" Y="617.5" Z="260.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hs_front_1">
+						<Position X="0.0" Y="617.5" Z="228.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="*bb_hs_front_1">
+						<Position X="0.0" Y="617.5" Z="324.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+					<Zylinder von_Bohrbild="bb_to_haftplatte">
+						<Position X="0.0" Y="323.0" Z="3.0" Bezug="R"/>
+						<Orientierung X="1.0" Y="0.0" Z="0.0" Bezug="A"/>
+						<Hoehe>3.0</Hoehe>
+						<Radius>1.25</Radius>
+					</Zylinder>
+				</Bohrungen>
+			</Quader>
+			<Bohrbild Name="*Bohrbild_52" Blockname="*bb_hs_front_1">
+				<Position X="0.0" Y="28.5" Z="228.0" Bezug="R"/>
+				<LayerZuordnung Von="1,2,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X002">3.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X002">1.25</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_53" Blockname="*bb_hs_front_1">
+				<Position X="0.0" Y="617.5" Z="228.0" Bezug="R"/>
+				<LayerZuordnung Von="1,3,6" Nach="4,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X002">3.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X002">1.25</BR>
+				</Bohrradius>
+			</Bohrbild>
+			<Bohrbild Name="*Bohrbild_54" Blockname="bb_to_haftplatte">
+				<Position X="0.0" Y="323.0" Z="3.0" Bezug="R"/>
+				<LayerZuordnung Von="1,2,3,6" Nach="4,5,5,9"/>
+				<Bohrtiefe>
+					<BT ID="T_X002">3.0</BT>
+				</Bohrtiefe>
+				<Bohrradius>
+					<BR ID="R_X002">1.25</BR>
+				</Bohrradius>
+			</Bohrbild>
+		</Front>
+	</Klappensystem>
+</Korpus>
