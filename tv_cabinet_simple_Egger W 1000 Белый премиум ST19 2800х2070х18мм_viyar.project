@@ -7,6 +7,7 @@
 <material id="1" type="sheet" article="69453" name="Egger W 1000 Белый премиум ST19 2800х2070х18мм" width="3000" height="3000" thickness="18" />
 <material id="2" type="band" article="35418" name="АВS 22х0,5мм Белый Премиум" height="22" thickness="0.5" />
 <material id="3" type="band" article="40712" name="ABS PRO 23х2мм Белый премиум PE33 (ДРЕВЕСНАЯ СТРУКТУРА) Кромка ЛАЗЕРНАЯ 76873" height="23" thickness="2" />
+<material id="4" type="band" article="35419" name="76873 Кромка ABS Белый премиум PE33 (ДРЕВЕСНАЯ СТРУКТУРА) 23х2мм (100 м.п.)" height="23" thickness="2" />
 </materials>
 <details>
 <detail id="1" material="1" barcode="" amount="2" width="517.0" height="313.0" multiplicity="1" grain="1" description="1.Дно ящика" marker="0">
@@ -47,10 +48,10 @@
 </detail>
 <detail id="3" material="1" barcode="" amount="2" width="514.0" height="81.0" multiplicity="1" grain="1" description="3.Фальш-панель ящика" marker="0">
 <edges>
-<left type="kromka" param="3" drop="0" />
-<top type="kromka" param="3" drop="0" />
-<right type="kromka" param="3" drop="0" />
-<bottom type="kromka" param="3" drop="0" />
+<left type="kromka" param="4" drop="0" />
+<top type="kromka" param="4" drop="0" />
+<right type="kromka" param="4" drop="0" />
+<bottom type="kromka" param="4" drop="0" />
 </edges>
 <operations>
 <operation id="1" type="drilling" side="4" x="9.0" y="26.5" xo="9.0" yo="26.5" xl="0" yl="0" d="5" depth="32.0" />
@@ -70,9 +71,9 @@
 <detail id="4" material="1" barcode="" amount="4" width="399.0" height="116.0" multiplicity="1" grain="1" description="4.Боковина ящика левая" marker="0">
 <edges>
 <left type="kromka" param="2" drop="0" />
-<top type="kromka" param="3" drop="0" />
+<top type="kromka" param="4" drop="0" />
 <right type="kromka" param="2" drop="0" />
-<bottom type="kromka" param="3" drop="0" />
+<bottom type="kromka" param="4" drop="0" />
 </edges>
 <operations>
 <operation id="1" type="drilling" side="1" x="9.0" y="34.0" xo="9.0" yo="34.0" xl="0" yl="0" d="8" depth="23.0" />
@@ -85,10 +86,10 @@
 </detail>
 <detail id="5" material="1" barcode="" amount="2" width="514.0" height="104.0" multiplicity="1" grain="1" description="5.Фальш-панель ящика" marker="0">
 <edges>
-<left type="kromka" param="3" drop="0" />
-<top type="kromka" param="3" drop="0" />
-<right type="kromka" param="3" drop="0" />
-<bottom type="kromka" param="3" drop="0" />
+<left type="kromka" param="4" drop="0" />
+<top type="kromka" param="4" drop="0" />
+<right type="kromka" param="4" drop="0" />
+<bottom type="kromka" param="4" drop="0" />
 </edges>
 <operations>
 <operation id="1" type="drilling" side="4" x="9.0" y="22.0" xo="9.0" yo="22.0" xl="0" yl="0" d="5" depth="32.0" />
@@ -108,7 +109,7 @@
 <detail id="6" material="1" barcode="" amount="2" width="517.0" height="105.5" multiplicity="1" grain="1" description="6.Задняя панель ящика" marker="0">
 <edges>
 <left type="kromka" param="2" drop="0" />
-<top type="kromka" param="3" drop="0" />
+<top type="kromka" param="4" drop="0" />
 <right type="kromka" param="2" drop="0" />
 <bottom type="kromka" param="2" drop="0" />
 </edges>
@@ -126,7 +127,7 @@
 <detail id="7" material="1" barcode="" amount="2" width="517.0" height="82.5" multiplicity="1" grain="1" description="7.Задняя панель ящика" marker="0">
 <edges>
 <left type="kromka" param="2" drop="0" />
-<top type="kromka" param="3" drop="0" />
+<top type="kromka" param="4" drop="0" />
 <right type="kromka" param="2" drop="0" />
 <bottom type="kromka" param="2" drop="0" />
 </edges>
@@ -144,9 +145,9 @@
 <detail id="8" material="1" barcode="" amount="4" width="349.0" height="93.0" multiplicity="1" grain="1" description="8.Боковина ящика левая" marker="0">
 <edges>
 <left type="kromka" param="2" drop="0" />
-<top type="kromka" param="3" drop="0" />
+<top type="kromka" param="4" drop="0" />
 <right type="kromka" param="2" drop="0" />
-<bottom type="kromka" param="3" drop="0" />
+<bottom type="kromka" param="4" drop="0" />
 </edges>
 <operations>
 <operation id="1" type="drilling" side="1" x="9.0" y="38.5" xo="9.0" yo="38.5" xl="0" yl="0" d="8" depth="23.0" />
@@ -160,9 +161,9 @@
 <detail id="9" material="1" barcode="" amount="4" width="399.0" height="85.0" multiplicity="1" grain="1" description="9.Боковина ящика левая" marker="0">
 <edges>
 <left type="kromka" param="2" drop="0" />
-<top type="kromka" param="3" drop="0" />
+<top type="kromka" param="4" drop="0" />
 <right type="kromka" param="2" drop="0" />
-<bottom type="kromka" param="3" drop="0" />
+<bottom type="kromka" param="4" drop="0" />
 </edges>
 <operations>
 <operation id="1" type="drilling" side="1" x="9.0" y="34.5" xo="9.0" yo="34.5" xl="0" yl="0" d="8" depth="23.0" />
@@ -194,7 +195,7 @@
 <detail id="11" material="1" barcode="" amount="2" width="535.0" height="74.5" multiplicity="1" grain="1" description="11.Задняя панель ящика" marker="0">
 <edges>
 <left type="kromka" param="2" drop="0" />
-<top type="kromka" param="3" drop="0" />
+<top type="kromka" param="4" drop="0" />
 <right type="kromka" param="2" drop="0" />
 <bottom type="kromka" param="2" drop="0" />
 </edges>
@@ -226,10 +227,10 @@
 </detail>
 <detail id="13" material="1" barcode="" amount="2" width="532.0" height="73.0" multiplicity="1" grain="1" description="13.Фальш-панель ящика" marker="0">
 <edges>
-<left type="kromka" param="3" drop="0" />
-<top type="kromka" param="3" drop="0" />
-<right type="kromka" param="3" drop="0" />
-<bottom type="kromka" param="3" drop="0" />
+<left type="kromka" param="4" drop="0" />
+<top type="kromka" param="4" drop="0" />
+<right type="kromka" param="4" drop="0" />
+<bottom type="kromka" param="4" drop="0" />
 </edges>
 <operations>
 <operation id="1" type="drilling" side="4" x="9.0" y="22.5" xo="9.0" yo="22.5" xl="0" yl="0" d="5" depth="32.0" />
@@ -279,12 +280,12 @@
 <operation id="8" type="drilling" side="6" x="508.0" y="146.0" xo="508.0" yo="146.0" xl="0" yl="0" d="2" depth="2.0" />
 </operations>
 </detail>
-<detail id="16" material="1" barcode="" amount="1" width="426.0" height="352.5" multiplicity="1" grain="1" description="16.Вертикальная" marker="0">
+<detail id="16" material="1" barcode="" amount="1" width="427.0" height="351.0" multiplicity="1" grain="1" description="16.Вертикальная" marker="0">
 <edges>
-<left type="kromka" param="2" drop="0" />
+<left type="" param="0" drop="0" />
 <top type="kromka" param="3" drop="0" />
-<right type="kromka" param="2" drop="0" />
-<bottom type="kromka" param="2" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="kromka" param="3" drop="0" />
 </edges>
 <operations>
 <operation id="1" type="drilling" side="1" x="284.0" y="295.0" xo="284.0" yo="295.0" xl="0" yl="0" d="5" depth="23.0" />
@@ -315,12 +316,12 @@
 <operation id="26" type="drilling" side="6" x="37.5" y="94.0" xo="37.5" yo="94.0" xl="0" yl="0" d="2" depth="5.0" />
 </operations>
 </detail>
-<detail id="17" material="1" barcode="" amount="1" width="1733.0" height="422.5" multiplicity="1" grain="1" description="17.Середня плита" marker="0">
+<detail id="17" material="1" barcode="" amount="1" width="1734.0" height="421.0" multiplicity="1" grain="1" description="17.Середня плита" marker="0">
 <edges>
-<left type="kromka" param="2" drop="0" />
+<left type="" param="0" drop="0" />
 <top type="kromka" param="3" drop="0" />
-<right type="kromka" param="2" drop="0" />
-<bottom type="kromka" param="2" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="kromka" param="3" drop="0" />
 </edges>
 <operations>
 <operation id="1" type="drilling" side="1" x="1143.0" y="365.0" xo="1143.0" yo="365.0" xl="0" yl="0" d="8" depth="23.0" />
@@ -351,12 +352,12 @@
 <operation id="26" type="drilling" side="6" x="1458.0" y="365.0" xo="1458.0" yo="365.0" xl="0" yl="0" d="8" depth="10.0" />
 </operations>
 </detail>
-<detail id="18" material="1" barcode="" amount="1" width="140.0" height="422.5" multiplicity="1" grain="1" description="18.Вертикальная" marker="0">
+<detail id="18" material="1" barcode="" amount="1" width="141.0" height="421.0" multiplicity="1" grain="1" description="18.Вертикальная" marker="0">
 <edges>
-<left type="kromka" param="2" drop="0" />
+<left type="" param="0" drop="0" />
 <top type="kromka" param="3" drop="0" />
-<right type="kromka" param="2" drop="0" />
-<bottom type="kromka" param="2" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="kromka" param="3" drop="0" />
 </edges>
 <operations>
 <operation id="1" type="drilling" side="2" x="9.0" y="30.0" xo="9.0" yo="30.0" xl="0" yl="0" d="8" depth="34.0" />
@@ -377,12 +378,12 @@
 <operation id="16" type="drilling" side="6" x="111.5" y="146.0" xo="111.5" yo="146.0" xl="0" yl="0" d="2" depth="5.0" />
 </operations>
 </detail>
-<detail id="19" material="1" barcode="" amount="1" width="426.0" height="352.5" multiplicity="1" grain="1" description="19.Вертикальная" marker="0">
+<detail id="19" material="1" barcode="" amount="1" width="427.0" height="351.0" multiplicity="1" grain="1" description="19.Вертикальная" marker="0">
 <edges>
-<left type="kromka" param="2" drop="0" />
+<left type="" param="0" drop="0" />
 <top type="kromka" param="3" drop="0" />
-<right type="kromka" param="2" drop="0" />
-<bottom type="kromka" param="2" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="kromka" param="3" drop="0" />
 </edges>
 <operations>
 <operation id="1" type="drilling" side="2" x="9.0" y="325.0" xo="9.0" yo="325.0" xl="0" yl="0" d="8" depth="20.0" />
@@ -435,12 +436,12 @@
 <operation id="12" type="drilling" side="4" x="9.0" y="289.0" xo="9.0" yo="289.0" xl="0" yl="0" d="8" depth="20.0" />
 </operations>
 </detail>
-<detail id="21" material="1" barcode="" amount="1" width="426.0" height="422.5" multiplicity="1" grain="1" description="21.Вертикальная" marker="0">
+<detail id="21" material="1" barcode="" amount="1" width="427.0" height="421.0" multiplicity="1" grain="1" description="21.Вертикальная" marker="0">
 <edges>
-<left type="kromka" param="2" drop="0" />
+<left type="" param="0" drop="0" />
 <top type="kromka" param="3" drop="0" />
-<right type="kromka" param="2" drop="0" />
-<bottom type="kromka" param="2" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="kromka" param="3" drop="0" />
 </edges>
 <operations>
 <operation id="1" type="drilling" side="2" x="9.0" y="395.0" xo="9.0" yo="395.0" xl="0" yl="0" d="5" depth="32.0" />
@@ -474,12 +475,12 @@
 <operation id="29" type="drilling" side="6" x="389.5" y="164.0" xo="389.5" yo="164.0" xl="0" yl="0" d="2" depth="5.0" />
 </operations>
 </detail>
-<detail id="22" material="1" barcode="" amount="1" width="426.0" height="422.5" multiplicity="1" grain="1" description="22.Вертикальная" marker="0">
+<detail id="22" material="1" barcode="" amount="1" width="427.0" height="421.0" multiplicity="1" grain="1" description="22.Вертикальная" marker="0">
 <edges>
-<left type="kromka" param="2" drop="0" />
+<left type="" param="0" drop="0" />
 <top type="kromka" param="3" drop="0" />
-<right type="kromka" param="2" drop="0" />
-<bottom type="kromka" param="2" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="kromka" param="3" drop="0" />
 </edges>
 <operations>
 <operation id="1" type="drilling" side="4" x="9.0" y="395.0" xo="9.0" yo="395.0" xl="0" yl="0" d="5" depth="32.0" />
@@ -597,12 +598,12 @@
 <operation id="12" type="drilling" side="2" x="9.0" y="902.0" xo="9.0" yo="902.0" xl="0" yl="0" d="5" depth="32.0" />
 </operations>
 </detail>
-<detail id="27" material="1" barcode="" amount="1" width="140.0" height="422.5" multiplicity="1" grain="1" description="27.Вертикальная" marker="0">
+<detail id="27" material="1" barcode="" amount="1" width="141.0" height="421.0" multiplicity="1" grain="1" description="27.Вертикальная" marker="0">
 <edges>
-<left type="kromka" param="2" drop="0" />
+<left type="" param="0" drop="0" />
 <top type="kromka" param="3" drop="0" />
-<right type="kromka" param="2" drop="0" />
-<bottom type="kromka" param="2" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="kromka" param="3" drop="0" />
 </edges>
 <operations>
 <operation id="1" type="drilling" side="4" x="9.0" y="30.0" xo="9.0" yo="30.0" xl="0" yl="0" d="8" depth="34.0" />
@@ -713,11 +714,11 @@
 <operation id="12" type="drilling" side="2" x="9.0" y="295.0" xo="9.0" yo="295.0" xl="0" yl="0" d="8" depth="20.0" />
 </operations>
 </detail>
-<detail id="32" material="1" barcode="" amount="1" width="601.5" height="446.0" multiplicity="1" grain="1" description="32.Права плита" marker="0">
+<detail id="32" material="1" barcode="" amount="1" width="600.0" height="446.0" multiplicity="1" grain="1" description="32.Права плита" marker="0">
 <edges>
 <left type="kromka" param="3" drop="0" />
 <top type="kromka" param="3" drop="0" />
-<right type="kromka" param="2" drop="0" />
+<right type="kromka" param="3" drop="0" />
 <bottom type="kromka" param="3" drop="0" />
 </edges>
 <operations>
@@ -748,12 +749,12 @@
 <operation id="25" type="drilling" side="6" x="492.5" y="171.0" xo="492.5" yo="171.0" xl="0" yl="0" d="2" depth="5.0" />
 </operations>
 </detail>
-<detail id="33" material="1" barcode="" amount="1" width="1733.0" height="447.5" multiplicity="1" grain="1" description="33.Нижня Плита" marker="0">
+<detail id="33" material="1" barcode="" amount="1" width="1734.0" height="446.0" multiplicity="1" grain="1" description="33.Нижня Плита" marker="0">
 <edges>
-<left type="kromka" param="2" drop="0" />
+<left type="" param="0" drop="0" />
 <top type="kromka" param="3" drop="0" />
-<right type="kromka" param="2" drop="0" />
-<bottom type="kromka" param="2" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="kromka" param="3" drop="0" />
 </edges>
 <operations>
 <operation id="1" type="drilling" side="6" x="276.0" y="85.0" xo="276.0" yo="85.0" xl="0" yl="0" d="8" depth="10.0" />
@@ -792,9 +793,9 @@
 <operation id="34" type="drilling" side="1" x="1187.0" y="34.0" xo="1187.0" yo="34.0" xl="0" yl="0" d="8" depth="23.0" />
 </operations>
 </detail>
-<detail id="34" material="1" barcode="" amount="1" width="601.5" height="446.0" multiplicity="1" grain="1" description="34.Ліва плита" marker="0">
+<detail id="34" material="1" barcode="" amount="1" width="600.0" height="446.0" multiplicity="1" grain="1" description="34.Ліва плита" marker="0">
 <edges>
-<left type="kromka" param="2" drop="0" />
+<left type="kromka" param="3" drop="0" />
 <top type="kromka" param="3" drop="0" />
 <right type="kromka" param="3" drop="0" />
 <bottom type="kromka" param="3" drop="0" />
